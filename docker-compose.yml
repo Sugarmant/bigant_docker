@@ -19,9 +19,8 @@ services:
   mysql:
     image: mysql:8.0
     environment:
-      MYSQL_ROOT_PASSWORD: V9#qL2@xT7!mK4$z
-      MYSQL_USER: yehger_sql
-      MYSQL_PASSWORD: K5#qL8@$x9o!!xK4z287
+      MYSQL_ROOT_PASSWORD: "V9#qL2@xT7!mK4$z"
+      MYSQL_DATABASE: "bigant"
     ports:
       - "3306:3306"
     volumes:
